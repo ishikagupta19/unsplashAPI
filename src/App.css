@@ -1,0 +1,28 @@
+/* App.css */
+
+.app {
+  text-align: center;
+  padding: 20px;
+  margin-top:2%;
+}
+
+.controls {
+  margin-bottom: 20px;
+}
+
+.image-display {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.text-overlay {
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid #ccc;
+  padding: 5px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  resize: both;
+  overflow: auto;
+}
